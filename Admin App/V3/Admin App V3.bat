@@ -17,8 +17,6 @@ echo ╚═╝  ╚═╝╚═════╝ ╚═╝     ╚═╝╚═╝�
 echo                                                                                                                                
 set /p input=Enter programme name including extension: 
 
-if exist %input% goto s
-
 echo var1=%input%>processing\app.name
 call rnr.bat
 goto a
